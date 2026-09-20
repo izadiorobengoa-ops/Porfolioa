@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="eu">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Izadi Orobengoa · Portfolioa</title>
+<meta name="description" content="Izadi Orobengoaren portfolioa: bideoa, animazioa eta diseinua. Ikus-entzunezko Komunikazioko ikaslea, Mondragon Unibertsitatea.">
+<meta name="theme-color" content="#2A1712">
+<!-- Argitaratu ondoren, hemen jarri webaren helbide osoa (README-n azaltzen da) -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Izadi Orobengoa · Portfolioa">
+<meta property="og:description" content="Bideoa, animazioa eta diseinua. Ikus-entzunezko Komunikazioko ikaslea.">
+<meta property="og:image" content="assets/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/bodoni-moda-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/anton-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<script>document.documentElement.className+=" js"</script>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Edukira salto egin</a>
+
+<!-- ============ SVG ikonoak eta apaingarriak ============ -->
+<svg class="sprite" width="0" height="0" aria-hidden="true" focusable="false">
+  <defs>
+    <linearGradient id="g-silver" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F3F1EE"/><stop offset=".18" stop-color="#C9C8C6"/>
+      <stop offset=".55" stop-color="#A9A8A8"/><stop offset="1" stop-color="#8B8A8A"/>
+    </linearGradient>
+    <linearGradient id="g-silver2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EDEBE8"/><stop offset="1" stop-color="#9D9C9C"/>
+    </linearGradient>
+    <radialGradient id="g-lens" cx=".4" cy=".35" r=".8">
+      <stop offset="0" stop-color="#5a6a8a"/><stop offset=".35" stop-color="#1d2338"/><stop offset="1" stop-color="#07080d"/>
+    </radialGradient>
+    <linearGradient id="g-wood" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6b3b28"/><stop offset="1" stop-color="#3a1d13"/>
+    </linearGradient>
+    <radialGradient id="g-screen" cx=".5" cy=".45" r=".75">
+      <stop offset="0" stop-color="#2b2b30"/><stop offset="1" stop-color="#0c0c0e"/>
+    </radialGradient>
+  </defs>
+
+  <!-- ikonoak -->
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M4 7l8 6 8-6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M6.5 3.5h3l1.5 4-2 1.3a11 11 0 005.2 5.2l1.3-2 4 1.5v3a2 2 0 01-2.2 2A15.5 15.5 0 014.5 5.7 2 2 0 016.5 3.5z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11.2A7 7 0 005 9.8C5 14.8 12 21 12 21z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><circle cx="12" cy="9.8" r="2.4" fill="none" stroke="currentColor" stroke-width="1.7"/></symbol>
+  <symbol id="i-car" viewBox="0 0 24 24"><path d="M4 15.5V12l2-5h12l2 5v3.5M4 15.5h16M4 15.5v2.5h3v-2.5m10 0v2.5h3v-2.5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"/><circle cx="8" cy="12.5" r="1" fill="currentColor"/><circle cx="16" cy="12.5" r="1" fill="currentColor"/></symbol>
+  <symbol id="i-cap" viewBox="0 0 24 24"><path d="M2.5 9.5L12 5l9.5 4.5L12 14 2.5 9.5zM6.5 11.7V16c0 1.3 2.5 2.5 5.5 2.5s5.5-1.2 5.5-2.5v-4.3" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"/></symbol>
+  <symbol id="i-chat" viewBox="0 0 24 24"><path d="M4 5.5h16v10H10l-4.5 3.5v-3.5H4z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></symbol>
+  <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 4v11m0 0l-4.5-4.5M12 15l4.5-4.5M5 19.5h14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m0 0l-5-5m5 5l-5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-arrow-l" viewBox="0 0 24 24"><path d="M19 12H5m0 0l5-5m-5 5l5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-external" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 01-1 1H5a1 1 0 01-1-1V7a1 1 0 011-1h5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-play" viewBox="0 0 24 24"><path d="M7 4.5v15l13-7.5z" fill="currentColor"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></symbol>
+  <symbol id="i-chevron" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 8h16M4 16h16" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></symbol>
+
+  <!-- apaingarriak -->
+  <symbol id="d-sparkle" viewBox="0 0 40 40"><path d="M20 0c1.4 10 4 16 20 20-16 4-18.6 10-20 20C18.6 30 16 24 0 20 16 16 18.6 10 20 0z" fill="currentColor"/></symbol>
+  <symbol id="d-scribble" viewBox="0 0 160 90"><path d="M8 14c30-14 78-8 96 22 12 20-2 40-22 34-18-6-16-30 6-32 20-2 38 10 58 36m0 0l-6-24m6 24l-24-4" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+
+  <!-- KAMERA (pantaila: x30 y120 w300 h180) -->
+  <symbol id="d-camera" viewBox="0 0 560 380">
+    <rect x="12" y="46" width="536" height="322" rx="30" fill="#5a5958" opacity=".35" transform="translate(0 8)"/>
+    <rect x="10" y="40" width="540" height="322" rx="30" fill="url(#g-silver)"/>
+    <rect x="10" y="40" width="540" height="322" rx="30" fill="none" stroke="#fff" stroke-opacity=".55" stroke-width="2"/>
+    <!-- goiko zatia -->
+    <rect x="330" y="18" width="70" height="30" rx="8" fill="url(#g-silver2)" stroke="#7b7a7a" stroke-width="1.2"/>
+    <rect x="420" y="26" width="44" height="22" rx="6" fill="#d9d8d6" stroke="#7b7a7a" stroke-width="1.2"/>
+    <circle cx="106" cy="66" r="22" fill="#2a2a2e" stroke="#e9e8e6" stroke-width="3"/>
+    <circle cx="106" cy="66" r="12" fill="url(#g-lens)"/>
+    <circle cx="101" cy="61" r="3.4" fill="#fff" opacity=".7"/>
+    <circle cx="160" cy="62" r="6" fill="#2a2a2e" opacity=".85"/>
+    <circle cx="180" cy="62" r="6" fill="#2a2a2e" opacity=".85"/>
+    <rect x="212" y="52" width="64" height="26" rx="6" fill="#dcdad8" stroke="#8b8a8a" stroke-width="1.1"/>
+    <text x="244" y="70" text-anchor="middle" font-family="Anton, Arial, sans-serif" font-size="13" letter-spacing="2" fill="#5a1220">IO·CAM</text>
+    <!-- pantailaren markoa -->
+    <rect x="22" y="108" width="316" height="204" rx="12" fill="#4a4949"/>
+    <rect x="26" y="112" width="308" height="196" rx="9" fill="#111"/>
+    <!-- eskuineko botoiak -->
+    <g>
+      <rect x="376" y="92" width="34" height="18" rx="5" fill="url(#g-silver2)" stroke="#7b7a7a"/>
+      <rect x="420" y="92" width="34" height="18" rx="5" fill="url(#g-silver2)" stroke="#7b7a7a"/>
+      <rect x="464" y="92" width="34" height="18" rx="5" fill="url(#g-silver2)" stroke="#7b7a7a"/>
+      <circle cx="516" cy="101" r="9" fill="#2a2a2e" stroke="#e9e8e6" stroke-width="2"/>
+    </g>
+    <circle cx="436" cy="216" r="76" fill="url(#g-silver2)" stroke="#7b7a7a" stroke-width="1.6"/>
+    <circle cx="436" cy="216" r="62" fill="#c4c3c1" stroke="#8b8a8a" stroke-width="1.4"/>
+    <circle cx="436" cy="216" r="36" fill="url(#g-silver)" stroke="#6e6d6d" stroke-width="1.6"/>
+    <circle cx="436" cy="216" r="17" fill="#7a1f2e" stroke="#e9e8e6" stroke-width="2"/>
+    <path d="M436 170v-14m0 120v14m-46-60h-14m120 0h14" stroke="#6e6d6d" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="372" cy="318" r="12" fill="url(#g-silver2)" stroke="#7b7a7a" stroke-width="1.4"/>
+    <circle cx="498" cy="318" r="12" fill="url(#g-silver2)" stroke="#7b7a7a" stroke-width="1.4"/>
+    <circle cx="516" cy="150" r="7" fill="#5a1220"/>
+    <rect x="350" y="320" width="8" height="26" rx="4" fill="#7b7a7a" opacity=".0"/>
+  </symbol>
+
+  <!-- TELEBISTA (pantaila: x52 y92 w320 h246) -->
+  <symbol id="d-tv" viewBox="0 0 520 430">
+    <path d="M190 62L120 10M290 62L360 10" stroke="#2a1712" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="120" cy="10" r="7" fill="#7a1f2e"/><circle cx="360" cy="10" r="7" fill="#7a1f2e"/>
+    <rect x="30" y="112" width="24" height="24" rx="4" fill="#2a1712"/>
+    <rect x="30" y="58" width="470" height="340" rx="40" fill="url(#g-wood)"/>
+    <rect x="30" y="58" width="470" height="340" rx="40" fill="none" stroke="#d3a9a4" stroke-opacity=".5" stroke-width="2"/>
+    <rect x="42" y="80" width="346" height="286" rx="34" fill="#1a0f0b"/>
+    <rect x="52" y="92" width="326" height="262" rx="40" fill="url(#g-screen)"/>
+    <circle cx="446" cy="130" r="30" fill="#c9b8a3" stroke="#2a1712" stroke-width="3"/>
+    <circle cx="446" cy="130" r="20" fill="#e7dccd"/><path d="M446 112v18" stroke="#7a1f2e" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="446" cy="204" r="30" fill="#c9b8a3" stroke="#2a1712" stroke-width="3"/>
+    <circle cx="446" cy="204" r="20" fill="#e7dccd"/><path d="M446 204l12-9" stroke="#7a1f2e" stroke-width="3" stroke-linecap="round"/>
+    <g stroke="#1a0f0b" stroke-width="4" stroke-linecap="round"><path d="M418 262h56M418 278h56M418 294h56M418 310h56M418 326h56"/></g>
+    <rect x="90" y="398" width="60" height="18" rx="6" fill="#2a1712"/><rect x="380" y="398" width="60" height="18" rx="6" fill="#2a1712"/>
+  </symbol>
+
+  <!-- DISKOA -->
+  <symbol id="d-vinyl" viewBox="0 0 220 220">
+    <circle cx="110" cy="110" r="108" fill="#16090a"/>
+    <g fill="none" stroke="#fff" stroke-opacity=".09" stroke-width="1.2"><circle cx="110" cy="110" r="98"/><circle cx="110" cy="110" r="88"/><circle cx="110" cy="110" r="78"/><circle cx="110" cy="110" r="68"/><circle cx="110" cy="110" r="58"/></g>
+    <path d="M40 60a88 88 0 0140-32" fill="none" stroke="#fff" stroke-opacity=".28" stroke-width="3" stroke-linecap="round"/>
+    <path d="M180 160a88 88 0 01-40 32" fill="none" stroke="#fff" stroke-opacity=".18" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="110" cy="110" r="36" fill="#7a1f2e"/>
+    <circle cx="110" cy="110" r="30" fill="none" stroke="#efe6da" stroke-opacity=".5" stroke-width="1"/>
+    <text x="110" y="106" text-anchor="middle" font-family="Anton, Arial, sans-serif" font-size="9" letter-spacing="2" fill="#efe6da">IZADI</text>
+    <text x="110" y="121" text-anchor="middle" font-family="Anton, Arial, sans-serif" font-size="9" letter-spacing="2" fill="#efe6da">SIDE A</text>
+    <circle cx="110" cy="110" r="4" fill="#efe6da"/>
+  </symbol>
+</svg>
+
+<!-- ============ Goiko barra ============ -->
+<header class="topbar" id="topbar">
+  <a class="mono" href="#top" aria-label="Hasierara">IO</a>
+  <nav class="pills" id="pills" aria-label="Nabigazio nagusia"></nav>
+  <a class="btn btn-wine btn-sm" id="cvTop" download><svg class="ic"><use href="#i-download"/></svg><span>CV</span></a>
+  <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="pills" aria-label="Menua ireki"><svg class="ic"><use href="#i-menu"/></svg></button>
+</header>
+
+<main id="main">
+  <span id="top"></span>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="hero" aria-labelledby="heroTitle">
+    <div class="hero-lace" aria-hidden="true"></div>
+
+    <div class="hero-film deco" aria-hidden="true" data-speed="-0.04">
+      <div class="film-v">
+        <div class="frame f1"><img data-src="assets/cabify/cabify-04-mockup-motxilak.jpg" alt=""></div>
+        <div class="frame f2"><img data-src="assets/fanzine/fanzinea.jpg" alt=""></div>
+        <div class="frame f3"><img data-src="assets/cabify/cabify-01-azala.jpg" alt=""></div>
+      </div>
+    </div>
+
+    <div class="hero-camera deco" aria-hidden="true" data-speed="0.05">
+      <svg viewBox="0 0 560 380"><use href="#d-camera"/></svg>
+    </div>
+
+    <div class="hero-phone deco" aria-hidden="true" data-speed="-0.06">
+      <svg viewBox="0 0 140 620" class="phone-svg">
+        <path data-coil data-x="70" data-y0="0" data-y1="330" data-a="15" data-turns="15" fill="none" stroke="#141010" stroke-width="3.2" stroke-linecap="round"/>
+        <g transform="translate(70 330) rotate(-14) translate(-70 -330)">
+          <rect x="46" y="330" width="48" height="230" rx="24" fill="#141010"/>
+          <rect x="16" y="318" width="108" height="70" rx="32" fill="#1e1717"/>
+          <rect x="16" y="512" width="108" height="70" rx="32" fill="#1e1717"/>
+          <path d="M28 340c8-8 22-10 34-8M28 534c8-8 22-10 34-8" stroke="#fff" stroke-opacity=".22" stroke-width="3" fill="none" stroke-linecap="round"/>
+          <path d="M56 400v100" stroke="#fff" stroke-opacity=".12" stroke-width="3" stroke-linecap="round"/>
+        </g>
+      </svg>
+    </div>
+
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <p class="kicker" id="heroKicker"></p>
+        <h1 class="hero-title" id="heroTitle"></h1>
+        <p class="hero-name" id="heroName"></p>
+        <p class="hero-role" id="heroRole"></p>
+        <p class="script" id="heroScript"></p>
+        <div class="cta" id="heroCta"></div>
+      </div>
+      <div class="hero-photo" data-speed="0.03">
+        <div class="hero-blob" aria-hidden="true"></div>
+        <img id="heroPhoto" src="assets/photos/izadi-hero.webp" alt="Izadi Orobengoa, irribarretsu, lurrean eserita" width="1157" height="809" fetchpriority="high">
+        <svg class="spark s1" aria-hidden="true"><use href="#d-sparkle"/></svg>
+        <svg class="spark s2" aria-hidden="true"><use href="#d-sparkle"/></svg>
+      </div>
+    </div>
+
+    <div class="scroll-hint" aria-hidden="true">
+      <span class="script" id="heroScroll"></span>
+      <svg viewBox="0 0 160 90"><use href="#d-scribble"/></svg>
+    </div>
+  </section>
+
+  <!-- ============ CINTA ============ -->
+  <div class="ribbon" aria-hidden="true"><div class="ribbon-track" id="ribbon1"></div></div>
+
+  <!-- ============ NIRI BURUZ ============ -->
+  <section class="about section-cream" id="niri-buruz" aria-labelledby="aboutTitle">
+    <div class="wrap about-grid">
+      <div class="about-photo" data-reveal>
+        <div class="ring" aria-hidden="true"></div>
+        <div class="disc" aria-hidden="true"></div>
+        <img id="aboutPhoto" data-src="assets/photos/izadi-about.webp" alt="Izadi Orobengoa, barrez" width="1397" height="1500" loading="lazy">
+        <svg class="spark s1" aria-hidden="true"><use href="#d-sparkle"/></svg>
+        <svg class="spark s3" aria-hidden="true"><use href="#d-sparkle"/></svg>
+      </div>
+      <div class="about-text">
+        <h2 class="h2" id="aboutTitle"></h2>
+        <div class="paper" data-reveal>
+          <span class="tape" aria-hidden="true"></span>
+          <div id="aboutParas"></div>
+        </div>
+        <ul class="facts" id="aboutFacts"></ul>
+      </div>
+    </div>
+
+    <div class="wrap identity">
+      <div class="tv" data-reveal>
+        <svg viewBox="0 0 520 430" aria-hidden="true"><use href="#d-tv"/></svg>
+        <div class="tv-screen" id="tvScreen"></div>
+      </div>
+      <div class="identity-text" data-reveal>
+        <p class="kicker">Bideoa</p>
+        <h3 class="h3" id="idTitle"></h3>
+        <p id="idText"></p>
+        <a class="link-under" id="idLink" target="_blank" rel="noopener noreferrer"></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ INDARGUNEAK ============ -->
+  <section class="strengths section-dark" id="indarguneak" aria-labelledby="strTitle">
+    <div class="lace-light" aria-hidden="true"></div>
+    <svg class="vinyl deco" aria-hidden="true" data-spin viewBox="0 0 220 220"><use href="#d-vinyl"/></svg>
+    <div class="wrap">
+      <h2 class="h2 on-dark" id="strTitle"></h2>
+      <div class="str-grid" id="strGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============ LANAK ============ -->
+  <section class="works section-sand" id="lanak" aria-labelledby="worksTitle">
+    <div class="wrap">
+      <h2 class="h2" id="worksTitle"></h2>
+      <p class="lead" id="worksLead"></p>
+    </div>
+    <div class="filmstrip">
+      <div class="perf perf-top" aria-hidden="true"></div>
+      <div class="film-row" id="worksRow"></div>
+      <div class="perf perf-bottom" aria-hidden="true"></div>
+    </div>
+  </section>
+
+  <!-- ============ VLOGAK ============ -->
+  <section class="vlogs" id="vlogak" aria-labelledby="vlTitle">
+    <div class="wrap">
+      <h2 class="h2 on-dark" id="vlTitle"></h2>
+      <p class="lead on-dark" id="vlLead"></p>
+    </div>
+    <div class="vl-stage" id="vlStage" role="region" aria-roledescription="karrusela" aria-label="Vlogak">
+      <div class="vl-circle" aria-hidden="true"></div>
+      <div class="vl-track" id="vlTrack" aria-live="polite"></div>
+      <button class="vl-next" id="vlNext" type="button" aria-label="Hurrengo vlog-a"><svg class="ic"><use href="#i-chevron"/></svg></button>
+      <div class="vl-dots" id="vlDots" role="tablist" aria-label="Vlog-ak"></div>
+    </div>
+  </section>
+
+  <!-- ============ ESPERIENTZIA + TRESNAK ============ -->
+  <section class="exp section-cream" id="esperientzia" aria-labelledby="expTitle">
+    <div class="wrap exp-grid">
+      <div>
+        <h2 class="h2" id="expTitle"></h2>
+        <ol class="timeline" id="timeline"></ol>
+      </div>
+      <div>
+        <h2 class="h2" id="toolsTitle"></h2>
+        <div class="tools" id="tools"></div>
+        <h3 class="h3 mt">Hizkuntzak</h3>
+        <ul class="langs" id="langs">
+          <li><b>Euskara</b><span>ama hizkuntza</span></li>
+          <li><b>Gaztelania</b><span>ama hizkuntza</span></li>
+          <li><b>Ingelesa</b><span>B2 ziurtagiria</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ZERGATIK NI ============ -->
+  <section class="why section-wine" id="zergatik-ni" aria-labelledby="whyTitle">
+    <div class="lace-light" aria-hidden="true"></div>
+    <div class="why-phone deco" aria-hidden="true" data-speed="-0.05">
+      <svg viewBox="0 0 140 620" class="phone-svg">
+        <path data-coil data-x="70" data-y0="0" data-y1="330" data-a="15" data-turns="15" fill="none" stroke="#efe6da" stroke-width="3.2" stroke-linecap="round"/>
+        <g transform="translate(70 330) rotate(12) translate(-70 -330)">
+          <rect x="46" y="330" width="48" height="230" rx="24" fill="#efe6da"/>
+          <rect x="16" y="318" width="108" height="70" rx="32" fill="#d3a9a4"/>
+          <rect x="16" y="512" width="108" height="70" rx="32" fill="#d3a9a4"/>
+        </g>
+      </svg>
+    </div>
+    <div class="wrap">
+      <h2 class="h2 on-dark" id="whyTitle"></h2>
+      <div class="why-list" id="whyList"></div>
+    </div>
+  </section>
+
+  <!-- ============ KONTAKTUA ============ -->
+  <section class="contact section-dark" id="kontaktua" aria-labelledby="ctTitle">
+    <div class="lace-light" aria-hidden="true"></div>
+    <div class="wrap contact-grid">
+      <div>
+        <h2 class="h2 on-dark" id="ctTitle"></h2>
+        <p class="lead on-dark" id="ctText"></p>
+        <ul class="contact-list" id="ctList"></ul>
+      </div>
+      <a class="cv-card" id="cvCard" download aria-label="Deskargatu CV-a (PDF)">
+        <img id="cvImg" data-src="assets/cv-preview.jpg" alt="Izadiren CV-aren aurrebista" width="909" height="1286" loading="lazy">
+        <span class="btn btn-cream"><svg class="ic"><use href="#i-download"/></svg><span>Deskargatu CV-a (PDF)</span></span>
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="perf perf-top" aria-hidden="true"></div>
+  <p id="footText"></p>
+  <div class="perf perf-bottom" aria-hidden="true"></div>
+</footer>
+
+<!-- ============ Lan baten xehetasunak ============ -->
+<div class="detail" id="detail" role="dialog" aria-modal="true" aria-labelledby="dTitle" hidden>
+  <div class="detail-scroll" id="detailScroll" tabindex="-1">
+    <div class="detail-bar">
+      <button class="btn btn-ghost btn-sm" id="dBack" type="button"><svg class="ic"><use href="#i-arrow-l"/></svg><span>Itzuli</span></button>
+      <div class="detail-pager">
+        <button class="round" id="dPrev" type="button" aria-label="Aurreko lana"><svg class="ic flip"><use href="#i-chevron"/></svg></button>
+        <button class="round" id="dNext" type="button" aria-label="Hurrengo lana"><svg class="ic"><use href="#i-chevron"/></svg></button>
+        <button class="round" id="dClose" type="button" aria-label="Itxi"><svg class="ic"><use href="#i-close"/></svg></button>
+      </div>
+    </div>
+    <article class="detail-body" id="dBody"></article>
+  </div>
+</div>
+
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Irudia handituta" hidden>
+  <button class="round" id="lbClose" type="button" aria-label="Itxi"><svg class="ic"><use href="#i-close"/></svg></button>
+  <img id="lbImg" alt="">
+  <p id="lbCap"></p>
+</div>
+
+<noscript><p style="padding:2rem;font-family:sans-serif">Webgune honek JavaScript behar du. CV-a hemen deskarga dezakezu: <a href="assets/CV_Izadi_Orobengoa.pdf">CV_Izadi_Orobengoa.pdf</a></p></noscript>
+
+<script src="js/content.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

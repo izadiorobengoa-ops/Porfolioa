@@ -1,0 +1,6 @@
+YA INCLUIDOS: cabify/ (8 diapositivas) y fanzine/ (imagen del fanzine).
+LOS TIENES QUE ANADIR TU:
+- photos/portrait-cutout.png  -> foto tuya con fondo transparente (remove.bg o Canva "Quitar fondo")
+- photos/portrait-2.jpg       -> segunda foto (opcional)
+- projects/txatxilipurdi/cover.jpg y frame-1..4.jpg -> miniatura y 3-4 capturas de tus videos
+- decor/*.png                 -> objetos decorativos con fondo transparente (telefono retro, TV, vinilo, camara, encaje...)
